@@ -4,8 +4,7 @@
 
 #### [关于mcuyun](https://github.com/mcuyun/whyme) : www.mcuyun.com
 
-
-## [简介](https://github.com/mcuyun/toolchain/wiki) 
+## [工程简介](https://github.com/mcuyun/CSR/wiki) 
 
 用于CSR蓝牙开发的工具和资源
 
@@ -15,11 +14,16 @@
 
 ## [组成](https://github.com/mcuyun/CSR/wiki)
 
-### [ADK](https://github.com/mcuyun/CSR)
+### [CSR IDE](https://github.com/mcuyun/CSR/IDE)
 
-### [BlueSuite](https://github.com/mcuyun/CSR)
+#### ADK
 
-### [docs](https://github.com/mcuyun/CSR)
+#### BlueSuite
+
+---
+
+## [CSR8675](https://github.com/mcuyun/CSR8675)
+
 
 
 ---
