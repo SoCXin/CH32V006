@@ -1,33 +1,18 @@
-﻿# [CSR](https://github.com/mcuyun/CSR) 
+﻿# [BlueSuite](https://github.com/sochub/BlueSuite)
+####  qitas@qitas.cn
+[![sites](SoC/SoC.png)](http://www.qitas.cn) 
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+#### 归属：[CSR](https://github.com/sochub/CSR)
 
-#### [关于mcuyun](https://github.com/mcuyun/whyme) : www.mcuyun.com
+## [描述](https://github.com/sochub/BlueSuite/wiki) 
 
-## [工程简介](https://github.com/mcuyun/CSR/wiki) 
+BlueSuite是一组CSR提供的开发工具，主要用于CSR芯片的烧写配置
 
-用于CSR蓝牙开发的工具和资源
+## [组成](SoC/) 
 
+#### [开发文档](docs/)
 
-
----
-
-## [组成](https://github.com/mcuyun/CSR/wiki)
-
-### [CSR IDE](https://github.com/mcuyun/CSR/IDE)
-
-#### ADK
-
-#### BlueSuite
-
----
-
-## [CSR8675](https://github.com/mcuyun/CSR8675)
+#### [BlueSuite](BlueSuite/)
 
 
-
----
-
-###  [嵌入式开发云](http://www.mcuyun.com)
-###  qitas@qitas.cn
-###  2018-12-3
+###  [SoC开发平台](http://www.qitas.cn)   
