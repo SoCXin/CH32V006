@@ -2,7 +2,7 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor) ：[chipsea](http://www.chipsea.com)
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[APT](http://www.aptchip.com/)
 #### [Core](https://github.com/SoCXin/RISC)：[C-Sky](https://github.com/SoCXin/RISC)
 #### [Level](https://github.com/SoCXin/Level) ：20 MHz * 0.9 DMIPS/MHz
 

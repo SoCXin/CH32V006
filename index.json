@@ -1,18 +1,24 @@
 {
     "type":"MCU",
     "name":"APT32F003",
-    "tags": ["Type-C","USB PD3.0"],
-    "series":["APT32F003"],
-    "description":"Eastsoft 8bit RISC OTP MCU",
+    "tags": ["CK802"],
+    "series":["APT32F003F6P6"],
+    "description":"APT 32bit C-Sky MCU",
     "peripheral": ["ADC","TIM","PWM"],
     "package":["LQFP64"],
     "encryption": ["UID-96"],
-    "SRAM":128,
-    "OTP":4032,
     "Core": {
         "num": 1,
-        "architecture":"Cortex-M0",
-        "Freq":48
+        "architecture":"CK802",
+        "Freq":20
+    },
+    "APT32F003F6P6": {
+        "SRAM":128,
+        "Flash":2048,
+        "peripheral": ["ADC","TIM","PWM"],
+        "package":["TSSOP20"],
+        "GPIO":17,
+        "price":1.2
     },
     "Level": {
         "main":1,
@@ -21,8 +27,7 @@
     },
     "GPIO": {
         "num": [13,17],
-        "irq": 4,
-        "more":["LIN","IrDA"]
+        "irq": 4
     },
     "ADC": {
         "num": 1,
@@ -53,12 +58,14 @@
         "Imax": 120
     },
     "EMC": {
-        "HSE": [2000,24000],
+        "EFT": [2000,24000],
         "ESD": [31]
     },
-    "vendor":"chipsea",
+    "manufacturer": {
+        "vendor":"APT",
+        "url": "http://www.aptchip.com"
+    },
     "url":"http://www.SoC.xin/APT32F003",
     "repo":"https://github.com/SoCXin/APT32F003",
-    "homepage": "http://www.chipsea.com/8-bit-pd-mcu/APT32F003.html",
     "version":"1.0.0"
 }
