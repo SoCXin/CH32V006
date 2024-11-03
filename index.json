@@ -1,71 +1,50 @@
 {
-    "type":"MCU",
-    "name":"APT32F003",
-    "tags": ["CK802"],
-    "series":["APT32F003F6P6"],
-    "description":"APT 32bit C-Sky MCU",
-    "peripheral": ["ADC","TIM","PWM"],
-    "package":["LQFP64"],
-    "encryption": ["UID-96"],
+    "type":"SoC",
+    "name":"CH32V006",
+    "title": "WCH SoC CH32V006",
+    "description":"WCH RISC-V2C USBHS+PD SoC",
+    "version":"1.1.0",
     "Core": {
         "num": 1,
-        "architecture":"CK802",
-        "Freq":20
-    },
-    "APT32F003F6P6": {
-        "SRAM":128,
-        "Flash":2048,
-        "peripheral": ["ADC","TIM","PWM"],
-        "package":["TSSOP20"],
-        "GPIO":17,
-        "price":1.2
-    },
-    "Level": {
-        "main":1,
-        "sub":12,
-        "price":0.7
-    },
-    "GPIO": {
-        "num": [13,17],
-        "irq": 4
-    },
-    "ADC": {
-        "num": 1,
-        "channel": 6,
-        "resolution": 12,
-        "rate": 1024
-    },
-    "TIM": {
-        "resolution":[8,8,8,8,16]
-    },
-    "PWM": {
-        "num": 4,
-        "resolution": 8,
-        "rate": 256
-    },
-    "CLK": {
-        "HSE": [1000,16000],
-        "HSI": [16000],
-        "LSI": [32],
-        "PLL": [16000,16000],
-        "DIV": [1,128],
-        "accuracy": 0.02
-    },
-    "PWR": {
-        "VDD": [3000,5500],
-        "PVD": [1820,1810],
-        "IDD": [2.21,14.31],
-        "Imax": 120
-    },
-    "EMC": {
-        "EFT": [2000,24000],
-        "ESD": [31]
+        "type":"RISC-V2C",
+        "Freq": 48,
+        "DMIPS": 100,
+        "CoreMark": 160
     },
     "manufacturer": {
-        "vendor":"APT",
-        "url": "http://www.aptchip.com"
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH32V006.html"
     },
-    "url":"http://www.SoC.xin/APT32F003",
-    "repo":"https://github.com/SoCXin/APT32F003",
-    "version":"1.0.0"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH32V006.git"
+    },
+    "series":["CH32V006"],
+    "package":["QSOP28","QFN32","QFN48","LQFP48","LQFP48X7"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[14,18],
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V",
+        "RISC-V2C",
+        "WCH",
+        "CH32V006",
+        "USBHS","NFC","BLE","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
 }

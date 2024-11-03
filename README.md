@@ -1,31 +1,44 @@
-﻿# [APT32F003](https://github.com/SoCXin/APT32F003)
+﻿# [CH32V006](https://github.com/SoCXin/CH32V006)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+* [WCH](http://www.wch.cn/)：[RISC-V](https://github.com/SoCXin/RISC-V)
+* [L1R3](https://github.com/SoCXin/Level): 48 MHz 
 
-#### [Vendor](https://github.com/SoCXin/Vendor) ：[APT](http://www.aptchip.com/)
-#### [Core](https://github.com/SoCXin/RISC)：[C-Sky](https://github.com/SoCXin/RISC)
-#### [Level](https://github.com/SoCXin/Level) ：20 MHz * 0.9 DMIPS/MHz
+## [简介](https://github.com/SoCXin/CH32V006/wiki)
 
-## [简介](https://github.com/SoCXin/APT32F003/wiki)
+[CH32V006](https://www.wch.cn/products/CH32V006.html) 是基于青稞RISC-V内核设计的工业级通用微控制器，支持48MHz系统主频，具有宽压、低功耗、单双线调试等特点。CH32V006内置1组12位模数转换ADC，采样率高达3Msps；内置OPA运放，支持高速模式以提高压摆率，其P端支持3通道轮询；提供了7路DMA控制器、8路TouchKey、多组定时器、2组USART串口、I2C、SPI等丰富外设资源。
 
-[APT32F003](https://github.com/SoCXin/APT32F003)集成了中天微系统开发的32位RISC内核，最高工作频率20MHz，内嵌FLASH和SRAM存储器（最大36KB FLASH，2KB SRAM），芯片提供多种丰富的外设和IO口。全系统产品提供的通讯接口包括I2C，UART，内嵌的12位ADC可以支持最大14路AD采样输入，提供4个16位的TIMER和1个32位的TIMER，其中4个TIMER可以支持PWM功能。
+``` mermaid
+gantt
+    title CH32V006 SDK
+    dateFormat  YYYY-MM-DD
+    section Mainline Release
+    v1.0           :a1, 2024-06-01, 2024-09-30
+```
 
-APT32F003 提供一种20脚封装形式，工作电压为2.4~5.5V，支持多种工作模式以实现不同要求下的功耗需求。这些丰富的特性使得APT32F003单片机非常适合应用于小型控制应用，人机接口，手持设备等。
+[![sites](docs/CH32V006.jpg)](http://www.wch.cn/products/CH32V006.html)
 
+### 关键特性
 
-[![sites](docs/APT32F003.png)](http://www.aptchip.com/Article/Equipment.aspx?cid=67&nid=25)
+* 48MHz RISC-V2C
+* 8KB SRAM + 62KB Flash
+* 1组运放OPA/PGA/电压比较器，支持高速模式以提高压摆率
+* 1组7路通用DMA控制器
+* 1组12位ADC
+* 1个16位高级定时器、1个16位通用定时器和1个16位精简定时器
+* 多引脚映射的UART串口，I2C接口，SPI接口
+* 2个看门狗定时器和1个32位系统时基定时器
+* 2组USART接口、1个IIC接口、1个SPI接口
+* 31个I/O口，映射1个外部中断
+* 封装：QFN32、QSOP24、QFN20、TSSOP20
+* 供电：2.5/3.3/5V
 
-#### 关键特性
+## [资源收录](https://github.com/SoCXin)
 
-* ADC
-### [资源收录](https://github.com/SoCXin/APT32F003)
-
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
+* [mounriver开发环境](http://www.mounriver.com/download)
 
-### [选型建议](https://github.com/SoCXin)
+## [选型建议](https://github.com/SoCXin)
 
-[APT32F003](https://github.com/SoCXin/APT32F003)
-
-###  [www.SoC.xin(芯)](http://www.SoC.Xin)
+[CH32V006](https://github.com/SoCXin/CH32V006) 

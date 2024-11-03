@@ -1,3 +1,22 @@
 *.pyc
-.pio/
+!*.hex
+*.log
 .vscode/
+list
+# obj
+Lst
+listing
+*uvgui*
+*uvopt*
+*.o
+*.d
+*.crf
+*.axf
+*.sct
+*.lnp
+*.htm
+*.dep
+*.BIN
+*.ZIP
+*.hex
+obj/
