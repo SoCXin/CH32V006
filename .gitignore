@@ -3,7 +3,6 @@
 *.log
 .vscode/
 list
-# obj
 Lst
 listing
 *uvgui*
@@ -20,3 +19,4 @@ listing
 *.ZIP
 *.hex
 obj/
+PUB/
